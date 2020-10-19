@@ -1,0 +1,19 @@
+.login-ct{
+    background-color: #F8FAFC;
+}
+.login{
+    border-radius: 10px;
+    background-color: white;
+}
+.google-login{
+    border-radius: 25px!important;
+    border: 1px solid lightgrey!important;
+    color: black!important;
+}
+.google-login:hover{
+    color: white!important;
+}
+.register{
+    background-color: white;
+    border-radius: 10px;
+}

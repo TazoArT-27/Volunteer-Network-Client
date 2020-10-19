@@ -1,0 +1,30 @@
+.vn-home{
+    background-color: #F8FAFC;
+}
+.font{
+    font-size: 42px;
+    font-weight: bold;
+}
+.search-box{
+    margin-left: 300px;
+    
+}
+.search-box input{
+    width: 370px!important;
+    border-radius: 5px 0px 0px 5px!important;
+}
+.search-box button{
+    border-radius: 0px 5px 5px 0px!important;
+}
+.color-yellow{
+    background-color: #FFBD3E;
+}
+.color-orange{
+    background-color: #FF7044;
+}
+.color-sky{
+    background-color: #3F90FC;
+}
+.color-blue{
+    background-color: #421FCF;
+}
