@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import Logo from '../../images/logos/logo.png';
 import ListBar from './Listbar';
 
 const AdminDashboard = () => {

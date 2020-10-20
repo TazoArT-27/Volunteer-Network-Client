@@ -67,7 +67,6 @@ const Register = () => {
 							placeholder="Full Name"
 							name="name"
 							value={volunteer.name}
-							// onChange={handleInputValue}
 							required={true}
 							minLength="3"
 							ref={register({ required: true })}
@@ -81,7 +80,6 @@ const Register = () => {
 							placeholder="Username or Email"
 							name="email"
 							value={volunteer.email}
-							// onChange={handleInputValue}
 							required={true}
 							ref={register({ required: true })}
 						/>
@@ -93,7 +91,6 @@ const Register = () => {
 							className="form-control"
 							placeholder="starting date"
 							name="date"
-							// onChange={handleInputValue}
 							required={true}
 							ref={register({ required: true })}
 						/>
@@ -106,7 +103,6 @@ const Register = () => {
 							placeholder="Event task name"
 							name="title"
 							value={selectedTask ? selectedTask.title : "Please pick a task from home page"}
-							// onChange={handleInputValue}
 							required={true}
 							ref={register({ required: true })}
 						/>
@@ -119,7 +115,6 @@ const Register = () => {
 							placeholder="Description"
 							name="description"
 							ref={register({ required: true })}
-							// onChange={handleInputValue}
 						/>
 						{errors.name && <span className="text-danger">description is required</span>}
 					</div>

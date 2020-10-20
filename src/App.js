@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
-import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Login from "./components/Login/Login";
 import Register from "./components/Login/Register";
@@ -11,16 +10,15 @@ import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import EventTasks from "./components/EventTasks/EventTasks";
 import AdminDashboard from "./components/Admin/AdminDashboard";
 import MakeAdmin from "./components/Admin/MakeAdmin";
+import VolunteerList from "./components/Admin/VolunteerList";
 
 export const UserContext = createContext();
 
 function App() {
 	const [loggedInUser, setLoggedInUser] = useState({});
-	// const [baseData, setBaseData] = useState([]);
 
 	const globalStates = {
 		user: [loggedInUser, setLoggedInUser],
-		// data: [baseData, setBaseData],
 	};
 
 	return (
@@ -49,8 +47,10 @@ function App() {
 					<Route path="/makeAdmin">
 						<MakeAdmin></MakeAdmin>
 					</Route>
+					<Route path="/volunteerList">
+						<VolunteerList></VolunteerList>
+					</Route>
 				</Switch>
-				<Footer></Footer>
 			</Router>
 		</UserContext.Provider>
 	);
