@@ -37,7 +37,7 @@ const Register = () => {
 	const { register, handleSubmit, errors} = useForm();
 	const onSubmit = data => {
 		
-		fetch('http://localhost:5000/addVolunteerInfo',{
+		fetch('https://pacific-spire-22845.herokuapp.com/addVolunteerInfo',{
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json'},
 			body: JSON.stringify(data)

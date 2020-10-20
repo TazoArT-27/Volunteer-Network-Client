@@ -11,7 +11,7 @@ const EventTasks = () => {
     const [userTasks, setUserTasks] = useState([]);
 
     useEffect(() => {
-		fetch(`http://localhost:5000/events?email=${loggedInUser.email}`)
+		fetch(`https://pacific-spire-22845.herokuapp.com/events?email=${loggedInUser.email}`)
 			.then((res) => res.json())
 			.then((data) => {
 				setUserTasks([...data]);
@@ -21,7 +21,7 @@ const EventTasks = () => {
     }, []);
     
     const deleteTask = (id) => {
-		fetch(`http://localhost:5000/deleteTask/${id}`, {
+		fetch(`https://pacific-spire-22845.herokuapp.com/deleteTask/${id}`, {
 			method: "DELETE",
 		})
 			.then((res) => res.json())

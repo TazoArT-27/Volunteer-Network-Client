@@ -21,7 +21,7 @@ const AdminDashboard = () => {
         formData.append('title', addWork.title);
         formData.append('description', addWork.description);
       
-        fetch('http://localhost:5000/addWork', {
+        fetch('https://pacific-spire-22845.herokuapp.com/addWork', {
           method: 'POST',
           body: formData
         })

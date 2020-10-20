@@ -6,7 +6,7 @@ const VolunteerList = () => {
     const [volunteerList, setVolunteerList] = useState([]);
     useEffect(() => {
 		
-			fetch("http://localhost:5000/loadVolunteerList")
+			fetch("https://pacific-spire-22845.herokuapp.com/loadVolunteerList")
 				.then((res) => res.json())
 				.then((data) => {
 					setVolunteerList(data);
@@ -15,7 +15,7 @@ const VolunteerList = () => {
     }, []);
     
     const handleDeleteEvent = (id) => {
-			fetch(`http://localhost:5000/admin/deleteTask/${id}`, {
+			fetch(`https://pacific-spire-22845.herokuapp.com/admin/deleteTask/${id}`, {
 				method: "DELETE",
 			})
 				.then((res) => res.json())
