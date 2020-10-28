@@ -1,4 +1,60 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Website : [Go To Live Site] (https://volunteernetwork-ad5f9.web.app/)
+
+### Works Done :  
+    1. React Router and Material UI have been used
+    2. At some point bootstrap also been used
+    3. Font Awesome and Firebase authentication has been integrated
+
+### Main Features : 
+    1. This is a website where anyone can volunteer as they wish.
+    2. There is an admin panel and dashboard so that admins can add more new volunteer activities.
+    3. Volunteers will be able to submit their volunteer activities with the desired date after the required form fill up and authentication.
+    4. Admins and Volunteers can login separately.
+    5. The UI design has been made quite interesting.
+
+### Frameworks/Libraries :
+    1. React.js
+    2. Firebase Authentication
+    3. Node.js
+    4. MongoDB Database
+    5. React Font Awesome 
+    6. Material UI Pickers
+    7. date fns
+    8. dayjs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -65,4 +121,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 ### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify -->
